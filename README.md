@@ -42,3 +42,13 @@ This project is a simple Django-based web application that implements a login an
 ---
 
 ## Project Structure
+
+
+---
+
+## How to Run the Project
+
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   cd login-signup
