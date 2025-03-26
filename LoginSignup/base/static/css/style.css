@@ -98,3 +98,34 @@ body {
     color: #2575fc;
     text-decoration: underline;
 }
+
+
+/* Logout button styling */
+
+a.logout-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    /* Red background */
+    color: #ffffff;
+    /* White text */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a.logout-button:hover {
+    background-color: #e60000;
+    /* Darker red on hover */
+    transform: translateY(-2px);
+    /* Slight lift on hover */
+}
+
+a.logout-button:active {
+    transform: translateY(0);
+    /* Reset lift on click */
+}
